@@ -9,6 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container: testcontainers/ryuk:0.3.0
 
     steps:
       - uses: actions/checkout@v2
